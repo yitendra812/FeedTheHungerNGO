@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FeedTheHunger Organization</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Muzzaffarpur, Bihar, India">
+    <meta name="author" content="Yitendra Pushkar">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript/js.js="></script>
+
+</head>
+
+<body class="body">
+
+    <head>
+        <style>
+            body {
+                background-image: url("./images/bg.jpg");
+                width: 50%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                opacity: 10;
+            }
+        </style>
+    </head>
+    <header class="mainheader">
+
+        <img src="./images/logo.png">
+        <content id="search">
+            <form>
+                <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+            </form>
+        </content>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="slideshow-container">
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">01 / 09</div>
+            <img src="./images/a.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">02 / 09</div>
+            <img src="./images/b.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">03 / 09</div>
+            <img src="./images/c.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">04 / 09</div>
+            <img src="./images/d.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">05 / 09</div>
+            <img src="./images/e.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">06 / 09</div>
+            <img src="./images/f.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">07 / 09</div>
+            <img src="./images/g.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">08 / 09</div>
+            <img src="./images/h.jpg">
+        </div>
+
+        <div class="Ypushkarslides fade">
+            <div class="numbertext">09 / 09</div>
+            <img src="./images/i.jpg">
+        </div>
+
+    </div>
+
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("Ypushkarslides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // This is for Changing image every 2.5 seconds
+        }
+    </script>
+    <br>
+
+    <script type="text/javascript">
+        document.title = "Home";
+    </script>
+
+
+    <script src="scripts/slider.js"></script>
+    <div class="mainContent">
+        <div class="Content">
+            <article class="topContent">
+                <header>
+                    <h3><a href="#" title="ABOUT FeedTheHunger">FeedTheHunger</a> </h3>
+                </header>
+                <footer>
+                    <p class="post-info"> Post written by Yitendra pushkar</p>
+                </footer>
+                <content>
+                    <p>FeedTheHunger Organization is a Non governmental Organization which provide the food to needy people.
+
+                    </p>
+                </content>
+            </article>
+
+            <article class="bottomContent">
+                <header>
+                    <h3><a href="#" title="Planning">Our plan </a> </h3>
+                </header>
+                <footer>
+                    <p class="post-info">Post written by Yitendra Pushkar</p>
+                </footer>
+                <content>
+                    <p> We plan for better quality food with complete progression pathway for hunger people. We focus in giving you the best.
+
+                    </p>
+                </content>
+            </article>
+            <article class="bottomContent">
+                <header>
+                    <h3>
+                        <a href="#" title="Planning"> Images</a>
+                    </h3>
+                </header>
+                <footer>
+                    <p class="post-info">Post by Yitendra Pushkar</p>
+                </footer>
+                <content>
+                    <h3>!</h3>
+                    <p>Time to stand with Organization. <img src="./images/unnamed.jpg" alt=""> </p>
+
+                </content>
+            </article>
+            <article class="bottomContent">
+                <header>
+                    <h3><a href="#" title="Need">Need</a> </h3>
+                </header>
+                <footer>
+                    <p class="post-info">Post written by Yitendra Pushkar</p>
+                </footer>
+                <content>
+                    <p>
+                        There is a saying that an empty stomach has no ears. How can we expect a starving or malnourished person to be interested in anything we have to say <br> if we aren’t also showing concern for their physical well-being? The truth
+                        is, our devata(god) ministry was filled with meeting both spiritual and physical needs–and doing both at the same time whenever possible. He expects His followers to do the same, and so this our mission. <br> These come in six-serving
+                        bags that can be fixed in boiling water individually or combined with many packets in large pots to feed the masses. The great news about this outreach is that it requires thousands of volunteers like you to get involved and produce
+                        these meals at events called Packathons. While food is the point of the spear in our efforts to fight physical hunger, we seek to help those in need in other practical ways. <br> This includes clean water projects, aid and relief
+                        outreach after natural disasters, micro-enterprise initiatives, and provision of basic transportation.
+                    </p>
+                </content>
+            </article>
+
+
+        </div>
+    </div>
+
+    <aside class="top-sidebar">
+        <article>
+            <h3>Join us today!</h3>
+            <p>Embark on a satisfying journey with FeedTheHunger</p>
+        </article>
+    </aside>
+
+    <aside class="middle-sidebar">
+        <article>
+            <h3>feel free to contact</h3>
+            <p>contact us! <br> <a href=""> Yitendra Pushkar <br>8294404281</a> </p>
+        </article>
+    </aside>
+
+
+    <aside class="buttom-sidebar">
+        <article>
+            <h3>contribution!</h3>
+            <p> Give your contribution to FeedTheHunger</p>
+        </article>
+    </aside>
+    <footer class="mainFooter">
+        <p>Copyright &copy
+            <a href="" style="color:rgb(6, 7, 46);"> <strong>Yitendra Pushkar </strong> </a>
+        </p>
+        <center>
+            <a href="https://www.facebook.com/hrx812/" style="color:rgb(6, 7, 46);"> Facebook  </a>
+            <a href="https://www.linkedin.com/in/yitendra-pushkar-10838b17a/" style="color:rgb(6, 7, 46);">linkedin</a>
+            <a href="https://github.com/yitendra812" style="color:rgb(6, 7, 46);">github</a>
+
+
+        </center>
+    </footer>
+
+</body>
+
+</html>

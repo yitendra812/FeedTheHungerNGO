@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Informatics College</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="Organization,Muzzaffarpur, Bihar, India">
+    <meta name="author" content="Yitendra pushkar">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+    <script src="validatename.js"></script>
+
+</head>
+
+<body class="body">
+
+    <head>
+        <style>
+            body {
+                background-image: url("./images/bg.jpg");
+                width: 50%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                opacity: 10;
+            }
+        </style>
+    </head>
+    <header class="mainheader">
+        <img src="images/logo.png">
+        <content id="search">
+            <form>
+                <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+            </form>
+        </content>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <h3>Contact</h3>
+    <h4>FeedTheHunger Organization<br> Muzzaffarpur</h4>
+    Bihar,India
+    <pre>
+
+Email : pushkarhritik@gmail.com <br>
+phone : 8294404281 <br>
+</pre>
+
+
+    <!DOCTYPE html>
+    <html>
+
+    <body>
+
+        <br>
+        <br>
+
+        <strong>If you wanna contribute, U can directly pay through UPI <br> to This No.:- 8294404281:</strong>
+        <center>
+            <input id="numb">
+
+            <button type="button" onclick="myFunction()">Submit</button>
+
+            <p id="demo"></p>
+        </center>
+        <hr>
+        <footer class="mainFooter">
+            <p>Copyright &copy
+                <a href=" https://www.facebook.com/hrx812/" style="color:rgb(6, 7, 46);"> <b> Yitendra Pushkar </b></a>
+            </p>
+            <center>
+                <a href="https://www.facebook.com/hrx812/" style="color:rgb(6, 7, 46);">Facebook</a>
+                <a href="" style="color:rgb(6, 7, 46);">Twitter</a>
+            </center>
+        </footer>
+        <script>
+            function myFunction() {
+                var x, text;
+
+                // Get the value of the input field with id="numb"
+                x = document.getElementById("numb").value;
+
+                // If x is Not a Number or less than one or greater than 10
+                if (isNaN(x) || x < 1 || x > 1000) {
+                    text = "Input not valid";
+                } else {
+                    text = "Input OK";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+        </script>
+
+    </body>
+
+    </html>
+    <script type="text/javascript">
+        document.title = "Contact";
+    </script>
+</body>
+
+</html>
